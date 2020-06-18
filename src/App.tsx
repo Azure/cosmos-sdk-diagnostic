@@ -1,10 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { OutputAnalyzerComponent } from './OutputAnalyzerComponent';
 
 function App() {
   return (
     <div className="App">
+      <OutputAnalyzerComponent />
+
+      {/* This below was from the starter app. You can remove */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
